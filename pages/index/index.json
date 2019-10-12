@@ -2,6 +2,7 @@
   "usingComponents": {
        "scrollView":"/components/scrollView/scrollView",
        "w-swiper":"/components/swiper/swiper",
-       "w-checkbox":"/components/checkbox/checkbox"
+       "w-checkbox":"/components/checkbox/checkbox",
+       "w-picker":"/components/picker/picker"
   }
 }

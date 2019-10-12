@@ -3,3 +3,5 @@ swiper
 <w-swiper/>
 checkbox
 <w-checkbox/>
+picker
+<w-picker/>
