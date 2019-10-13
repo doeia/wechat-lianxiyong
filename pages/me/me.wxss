@@ -1,0 +1,19 @@
+/* pages/me/me.wxss */
+.title{
+  margin-right: 30px;
+  font-weight: bold;
+}
+.hr{
+  border: 1px solid #ccc;
+  opacity: 0.2;
+  width: 90%;
+  margin: 0 auto;
+}
+.see{
+  position: absolute;
+  right: 30px;
+}
+.btn{
+  width: 90%;
+  margin-top: 40px;
+}

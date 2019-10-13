@@ -14,7 +14,9 @@ Component({
     array:['美国','中国','巴西'],
     index:0,
     date:'2019-10-12',
-    time:'17:15'
+    time:'17:15',
+    region: ['广东省', '广州市', '海珠区'],
+    customItem: '全部'
   },
 
   /**
@@ -35,6 +37,12 @@ Component({
     bindDateChange: function(e){
       this.setData({
         date:e.detail.value
+      })
+    },
+    bindRegionChange: function (e) {
+      console.log('picker发送选择改变，携带值为', e.detail.value)
+      this.setData({
+        region: e.detail.value
       })
     }
   }

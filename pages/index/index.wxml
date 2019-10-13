@@ -1,7 +1,26 @@
-<scrollView />
-swiper
+<text class="qufen">scroll</text>
+<w-scrollView />
+
+<text class="qufen">swiper</text>
 <w-swiper/>
-checkbox
+
+<text class="qufen">checkbox</text>
 <w-checkbox/>
-picker
+
+<text class="qufen">picker</text>
 <w-picker/>
+
+<text class="qufen">video</text>
+<w-video/>
+
+<text class="qufen">request</text>
+<w-request/>
+
+<text class="qufen">uploadFile</text>
+<w-uploadFile/>
+
+<text class="qufen">downloadFile</text>
+<w-downloadFile/>
+
+<text class="qufen">websocket</text>
+<w-webSocket/>

@@ -1,0 +1,40 @@
+<view>
+  <view>
+    <view class="title">账号</view>
+    <view class='num'>
+      <input bindblur="accountInput"  placeholder="用户名/邮箱/手机号" placeholder-style="color:#999999;"></input>
+    </view>
+  </view>
+  
+  <view class="hr"></view>
+
+  <view class="account">
+    <view class="title">密码</view>
+    <view class="num">
+      <input bindblur="pwdBlur" password="{{pwd}}" placeholder="请输入密码" placeholder-style="color:#999999"></input>
+    </view>
+    <view class="see">
+      <image src="../image/mine/unlocked.png" style="width:30px;height:30px;" bindtap="changePwd"></image>
+    </view>
+  </view>
+  
+
+  <view class="hr"></view>
+  
+  <button class="btn" disabled="{{disabled}}" type="{{btnstate}}">登录</button>
+
+  <view class="operate">
+    <navigator url="../mobile/mobile">手机快速注册</navigator>
+  </view>
+  <view class="operate">
+    <navigator url="../company/company">企业用户快速注册</navigator>
+  </view>
+
+  <view class="login">
+    <view>
+      <image src="../image/mine/icon1.png" style="width:72px;height:70px;"></image>
+      <image src="../image/mine/icon2.png" style="width:72px;height:70px;"></image>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,6 @@
+<button bindlongtap="connectSocket">连接WebSocket</button>
+<button bindtap="onSocketOpenClose">监听socket打开和关闭</button>
+<button bindtap="onSocketOpenError">监听socket错误</button>
+<button bindtap="sendSocketMessage">通过socket发送信息</button>
+<button bindtap="onSocketMessage">监听服务器消息</button>
+<button bindtap="closeSocket">关闭和监听关闭socket</button>

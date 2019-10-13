@@ -1,8 +1,13 @@
 {
   "usingComponents": {
-       "scrollView":"/components/scrollView/scrollView",
+       "w-scrollView":"/components/scrollView/scrollView",
        "w-swiper":"/components/swiper/swiper",
        "w-checkbox":"/components/checkbox/checkbox",
-       "w-picker":"/components/picker/picker"
+       "w-picker":"/components/picker/picker",
+       "w-video":"/components/video/video",
+       "w-request":"/components/request/request",
+       "w-uploadFile":"/components/uploadFile/uploadFile",
+       "w-downloadFile":"/components/downloadFile/downloadFile",
+       "w-webSocket":"/components/websocket/websocket"
   }
 }
